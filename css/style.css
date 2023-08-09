@@ -83,6 +83,9 @@ img {
 .hero {
     background-repeat: no-repeat;
     text-align: center;
+    background-position: center;
+    background-size: cover;
+    color: white;
 }
 
 .hero.index {
@@ -106,6 +109,21 @@ main h2 {
 
 .logo-whale {
     text-align: center;
+}
+
+.shop-info{
+    border-collapse: collapse;
+}
+
+.shop-info{
+    width: 112px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.shop-info th, .shop-info td{
+    border: 1px solid #DBDBDB;
+    padding: 20px;
 }
 
 /* すべてのページに適用 - フッター */
