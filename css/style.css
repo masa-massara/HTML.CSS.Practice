@@ -81,7 +81,13 @@ img {
 
 /* すべてのページに適用 - ヒーロー */
 .hero {
+    background-repeat: no-repeat;
     text-align: center;
+}
+
+.hero.index {
+    padding: 287px 0;
+    background-image: url(../images/home-hero.jpg);
 }
 
 /* すべてのページに適用 - メイン */
