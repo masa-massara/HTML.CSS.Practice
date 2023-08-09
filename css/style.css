@@ -3,10 +3,12 @@ html {
     font-size: 16px;
     font-family: sans-serif;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0 0 0 0;
 }
 
@@ -16,41 +18,44 @@ td {
     line-height: 1.7;
 }
 
-a:link{
+a:link {
     color: #F07D34;
     text-decoration: none;
 }
-a:visited{
+
+a:visited {
     color: #F07D34;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #F07D34;
     text-decoration: underline;
 }
-a:active{
+
+a:active {
     color: #F07D34;
     text-decoration: underline;
 }
 
 /* すべてのページに適用 - ヘッダー */
-.logo{
+.logo {
     text-align: center;
 }
 
-.nav a:link{
+.nav a:link {
     color: #253958;
 }
 
-.nav a:visited{
+.nav a:visited {
     color: #253958;
 }
 
-.nav a:hover{
+.nav a:hover {
     text-decoration: none;
 }
 
-.nav a:active{
+.nav a:active {
     text-decoration: none;
 }
 
@@ -58,13 +63,29 @@ img {
     max-width: 100%;
 }
 
+.header {
+    padding: 40px;
+    background-image: url(../images/stripe.png);
+    background-repeat: repeat-x;
+}
+
+.nav ul {
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
 /* すべてのページに適用 - ヒーロー */
-.hero{
+.hero {
     text-align: center;
 }
 
 /* すべてのページに適用 - メイン */
-main{
+main {
     margin: 90px auto 90px auto;
     max-width: 1000px;
 }
@@ -73,11 +94,11 @@ main h2 {
     color: #253958;
     font-size: 1.3rem;
     border-bottom: 2px solid #253958;
-    margin: 60px 0 20px 0 ;
+    margin: 60px 0 20px 0;
     padding-bottom: 5px;
 }
 
-.logo-whale{
+.logo-whale {
     text-align: center;
 }
 
@@ -85,7 +106,8 @@ main h2 {
 .gotop {
     text-align: center;
 }
-.copyright{
+
+.copyright {
     background-color: #253958;
     color: white;
     text-align: center;
