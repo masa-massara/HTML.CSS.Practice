@@ -38,6 +38,22 @@ a:active{
     text-align: center;
 }
 
+.nav a:link{
+    color: #253958;
+}
+
+.nav a:visited{
+    color: #253958;
+}
+
+.nav a:hover{
+    text-decoration: none;
+}
+
+.nav a:active{
+    text-decoration: none;
+}
+
 img {
     max-width: 100%;
 }
