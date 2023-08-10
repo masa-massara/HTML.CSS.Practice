@@ -115,7 +115,7 @@ main h2 {
     border-collapse: collapse;
 }
 
-.shop-info{
+.shop-info th{
     width: 112px;
     text-align: left;
     vertical-align: top;
