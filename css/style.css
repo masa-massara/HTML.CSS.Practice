@@ -100,11 +100,11 @@ img {
 
 }
 
-.hero.contact{
+.hero.contact {
     background-image: url(../images/contact-hero.jpg);
 }
 
-.hero.menu{
+.hero.menu {
     background-image: url(../images/menu-hero.jpg);
 }
 
@@ -161,3 +161,9 @@ main h2 {
 
 
 /* index.html */
+/* menu.html */
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
