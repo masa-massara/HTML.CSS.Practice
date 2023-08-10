@@ -81,6 +81,7 @@ img {
 
 /* すべてのページに適用 - ヒーロー */
 .hero {
+    padding: 137px 0;
     background-repeat: no-repeat;
     text-align: center;
     background-position: center;
@@ -91,6 +92,20 @@ img {
 .hero.index {
     padding: 287px 0;
     background-image: url(../images/home-hero.jpg);
+}
+
+.hero.access {
+
+    background-image: url(../images/access-hero.jpg);
+
+}
+
+.hero.contact{
+    background-image: url(../images/contact-hero.jpg);
+}
+
+.hero.menu{
+    background-image: url(../images/menu-hero.jpg);
 }
 
 /* すべてのページに適用 - メイン */
@@ -111,17 +126,18 @@ main h2 {
     text-align: center;
 }
 
-.shop-info{
+.shop-info {
     border-collapse: collapse;
 }
 
-.shop-info th{
+.shop-info th {
     width: 112px;
     text-align: left;
     vertical-align: top;
 }
 
-.shop-info th, .shop-info td{
+.shop-info th,
+.shop-info td {
     border: 1px solid #DBDBDB;
     padding: 20px;
 }
@@ -142,4 +158,6 @@ main h2 {
 }
 
 /* 個別のスタイル */
+
+
 /* index.html */
