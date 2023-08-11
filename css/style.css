@@ -167,3 +167,56 @@ main h2 {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
+
+/* contact.html */
+form {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+input[type="text"],
+textarea {
+    padding: 6px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 140px;
+}
+
+.submit {
+    text-align: center;
+}
+
+input[type=submit] {
+    border: none;
+
+    padding: 20px;
+    width: 200px;
+    background-color: #253958;
+    color: white;
+    font-size: 1rem;
+
+}
+
+
+/* モバイル対応 */
+@media(max-width: 767px) {
+    .nav ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    main {
+        padding: 0 4%;
+    }
+
+    .hero.index{
+        padding: 28vh 0;
+    }
+
+    .items{
+        grid-template-columns: 1fr 1fr;
+    }
+}

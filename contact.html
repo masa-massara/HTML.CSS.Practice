@@ -31,7 +31,42 @@
     <h1 class="hero contact">お問い合わせ</h1>
 
     <main>
+        <form action="result.html">
+            <p>
+                <label for="kind">お問い合わせの種類</label><br>
+                <select name="kind" id="kind">
+                    <option value="1">ご予約</option>
+                    <option value="2">イベントに関するお問い合せ</option>
+                    <option value="3">その他</option>
+                </select>
+            </p>
 
+            <p>
+                初めてのご来店ですか？<br>
+                <label><input type="radio" name="first" value="yes" checked>はい</label><br>
+                <label><input type="radio" name="first" value="no">いいえ</label><br>
+            </p>
+
+            <p>
+                当カフェをお知りになったきっかけは？<br>
+                <label><input type="checkbox" name="how" value="friend">知り合いの紹介で</label><br>
+                <label><input type="checkbox" name="how" value="magazine">SNS、WEBサイト、雑誌などを見て</label><br>
+            </p>
+
+            <p>
+                <label>お問い合わせの件名</label><br>
+                <input type="text" name="subject" placeholder="タイトル">
+            </p>
+
+            <p>
+                <label>お問い合わせの具体的な内容</label><br>
+                <textarea name="message"></textarea>
+            </p>
+
+            <p class="submit">
+                <input type="submit" value="送信">
+            </p>
+        </form>
     </main>
     <footer>
         <div class="gotop">
