@@ -202,6 +202,7 @@ input[type=submit] {
 
 
 /* モバイル対応 */
+/* メディアクエリ */
 @media(max-width: 767px) {
     .nav ul {
         flex-wrap: wrap;
